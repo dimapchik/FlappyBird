@@ -26,3 +26,32 @@ _ENTER_ - чтобы перезапуститься после проигрыш�
 _RIGHT/LEFT_ - _увеличить/уменьшить_ расстояние между трубами 
 
 _UP/DOWN_ - _увеличить/уменьшить_ ширину дырки
+
+-----
+
+A simple implementation of the Flappy Bird game on the provided engine.
+
+To build on Linux, you will need the following packages: _g++, cmake, libx11-dev_. Your operating system must support graphics mode.
+
+For the assembly:
+
+```bash
+mkdir build && cd build && cmake .. && make
+```
+After that, the _game_ executable file will appear in the _build_ folder. To start the game, you need to launch it.
+
+# The rules of the game
+
+In this game, you need to fly a bird between the holes in the pipes, without touching the edges of the screen. The goal is to score as many points as possible.
+
+_SPACE_ - jump
+
+_esc_ - exit
+
+_ENTER_ - to restart after a loss
+
+The arrows can control the width of the hole and the distance between the pipes.
+
+_RIGHT/LEFT_ - _ increase/decrease the distance between the pipes 
+
+_UP/DOWN_ - _ increase/decrease the width of the hole
